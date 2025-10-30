@@ -83,3 +83,21 @@ if __name__ == "__main__":
     table.print_table()
 
     print(table.search("Chris"))  
+
+"""The hash function is beneficial and quick when you need to
+find something. Instead of scrolling through and trying to 
+find that one piece of information, you can use the hash function
+and see exactly where the data should be. Not only is it helpful
+when you need to find something, it's helpful when you need to 
+input something as well. You don't have to scroll through to find
+where a piece of information belongs, you can use the hash. For 
+this particular assignment, collisions were taken care of using 
+separate chaining. For example, if two contacts hash to the same 
+index, then they're stored as a list within that index. If a name 
+already exists within that chain, then I go and update the number. 
+If it doesn't exist within the chain, then I go in and add a new 
+node to the end of the list instead. This keeps things clean and 
+readable with so many contacts to keep track of. When you need fast
+access, a hash is the way to go. If you have a long list like a 
+contacts list, then a tree could take longer and lose you time. 
+Hash is ideal for quick access."""
